@@ -1228,7 +1228,7 @@ useEffect(() => {
               marginBottom: "0.5rem",
             }}
           >
-            ITINERARY
+            NIKKAH CEREMONY
           </p>
 
           {/* Date range */}
@@ -1258,8 +1258,9 @@ useEffect(() => {
               wordSpacing: "0.1em",
             }}
           >
-            Please join us for cocktails and hors d&apos;œuvres as we sail the
-            Bosphorus
+            Let’s celebrate the joyous moment of our families coming together at the Nikkah of our beloved childrens  
+            <br/>
+            <span style={{ fontSize: "1.4em", fontStyle: "normal", color: "#6b5c52" }}>Rafey &amp; Minahil</span>
           </p>
 
           {/* ── Timeline ── */}
@@ -1272,7 +1273,7 @@ useEffect(() => {
               paddingLeft: "2rem",
             }}
           >
-            Vertical line 
+            Event Timeline 
             <div
               style={{
                 position: "absolute",
@@ -1288,7 +1289,7 @@ useEffect(() => {
               {
                 time: "7:00 PM",
                 label:
-                  "Arrival at Emerald Banquet Hall #8 Garrison Golf & Country Club",
+                  "Guest arrival at Emerald Banquet Hall #8 Garrison Golf & Country Club",
               },
               {
                 time: "7:30 – 8:00 PM",
@@ -1298,6 +1299,11 @@ useEffect(() => {
                 time: "8:30 PM",
                 label:
                   "Dinner from Emerald Banquet Hall #8 Garrison Golf & Country Club",
+              },
+               {
+                time: "10:00 PM",
+                label:
+                  "Event concludes",
               },
             ].map((item, i) => (
               <div
