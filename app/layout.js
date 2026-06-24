@@ -1,4 +1,4 @@
-import { Dynalight, Hurricane } from "next/font/google";
+import { Dynalight, Hurricane, Engagement } from "next/font/google";
 import "./globals.css";
 
 const dynalight = Dynalight({
@@ -13,6 +13,12 @@ const hurricane = Hurricane({
   subsets: ["latin"],
 });
 
+const engagement = Engagement({
+  variable: "--font-engagement",
+  weight: "400",
+  subsets: ["latin"],
+});
+
 export const metadata = {
   title: "Rafey & Minahil | Nikkah Ceremony 2026",
   description:
@@ -21,7 +27,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${dynalight.variable} ${hurricane.variable}`}>
+    <html lang="en" className={`${dynalight.variable} ${hurricane.variable} ${engagement.variable}`}>
       <body>{children}</body>
     </html>
   );

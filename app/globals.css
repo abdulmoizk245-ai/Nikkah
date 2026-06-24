@@ -11,6 +11,7 @@
 
   --font-dynalight: "Dynalight", cursive;
   --font-hurricane: "Hurricane", cursive;
+  --font-engagement: "Engagement", cursive;
 }
 
 *,
@@ -26,9 +27,13 @@ body {
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  font-family: var(--font-hurricane), cursive;
+  font-family: var(--font-engagement), cursive;
 }
 
 * {
-  font-family: var(--font-hurricane), cursive;
+  font-family: var(--font-engagement), cursive;
+}
+
+p, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
