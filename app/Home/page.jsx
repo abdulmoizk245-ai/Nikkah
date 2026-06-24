@@ -1292,7 +1292,7 @@ useEffect(() => {
                   "Guest arrival at Emerald Banquet Hall #8 Garrison Golf & Country Club",
               },
               {
-                time: "7:30 – 8:00 PM",
+                time: "7:30 ",
                 label: "Nikkah Cermony",
               },
               {
