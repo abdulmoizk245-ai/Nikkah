@@ -10,6 +10,7 @@
   --color-muted: #5a5a5a;
 
   --font-dynalight: "Dynalight", cursive;
+  --font-hurricane: "Hurricane", cursive;
 }
 
 *,
@@ -25,4 +26,9 @@ body {
   color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
   text-align: center;
+  font-family: var(--font-hurricane), cursive;
+}
+
+* {
+  font-family: var(--font-hurricane), cursive;
 }

@@ -1,8 +1,14 @@
-import { Dynalight } from "next/font/google";
+import { Dynalight, Hurricane } from "next/font/google";
 import "./globals.css";
 
 const dynalight = Dynalight({
   variable: "--font-dynalight",
+  weight: "400",
+  subsets: ["latin"],
+});
+
+const hurricane = Hurricane({
+  variable: "--font-hurricane",
   weight: "400",
   subsets: ["latin"],
 });
@@ -15,7 +21,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={dynalight.variable}>
+    <html lang="en" className={`${dynalight.variable} ${hurricane.variable}`}>
       <body>{children}</body>
     </html>
   );
