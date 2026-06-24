@@ -113,7 +113,7 @@ useEffect(() => {
       style={{
         position: "relative",
         zIndex: 2,
-        fontFamily: "var(--font-engagement), cursive",
+        fontFamily: "var(--font-hurricane), cursive",
         fontSize: "0.75rem",
         letterSpacing: "0.25em",
         color: "#6a5a4a",
@@ -230,7 +230,7 @@ useEffect(() => {
           {/* Bismillah */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(1rem, 3vw, 1.4rem)",
               color: "#5a4a3a",
               direction: "rtl",
@@ -244,7 +244,7 @@ useEffect(() => {
           {/* Nikkah Ceremony label */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.58rem, 1.4vw, 0.7rem)",
               letterSpacing: "0.22em",
               color: "#8a7a6a",
@@ -272,7 +272,7 @@ useEffect(() => {
           {/* Couple names */}
           {/* <h1
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(2.8rem, 9vw, 5rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -287,7 +287,7 @@ useEffect(() => {
             <div className="flex flex-col items-center gap-1">
               <h1
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(2.8rem, 9vw, 5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
@@ -301,7 +301,7 @@ useEffect(() => {
               <p
                 className="text-center text-[12px] font-medium  tracking-[0.08em] text-[#3c3228]/80 md:text-[13px] "
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                 }}
               >
                 S/o Mr. &amp; Mrs. Faisal Azhar
@@ -312,7 +312,7 @@ useEffect(() => {
             <h1
               className="md:mt-0"
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(2.8rem, 9vw, 5rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -327,7 +327,7 @@ useEffect(() => {
             <div className="flex flex-col items-center gap-1">
               <h1
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(2.8rem, 9vw, 5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
@@ -341,7 +341,7 @@ useEffect(() => {
               <p
                 className="text-center text-[12px] font-medium  tracking-[0.08em] text-[#3c3228]/80 md:text-[13px] "
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                 }}
               >
                 &amp; D/o Mr. &amp; Mrs. Muhammad Shahzad Rafi
@@ -352,7 +352,7 @@ useEffect(() => {
           {/* Invitation text */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.62rem, 1.5vw, 0.78rem)",
               letterSpacing: "0.18em",
               color: "#6a5a4a",
@@ -390,7 +390,7 @@ useEffect(() => {
               />
               <p
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(0.6rem, 1.5vw, 0.72rem)",
                   letterSpacing: "0.2em",
                   color: "#6a5a4a",
@@ -411,7 +411,7 @@ useEffect(() => {
             {/* 23 */}
             <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(3rem, 10vw, 5rem)",
                 color: "#3c3228",
                 fontWeight: 700,
@@ -433,7 +433,7 @@ useEffect(() => {
               />
               <p
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(0.6rem, 1.5vw, 0.72rem)",
                   letterSpacing: "0.2em",
                   color: "#6a5a4a",
@@ -455,7 +455,7 @@ useEffect(() => {
           {/* THURSDAY */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.58rem, 1.4vw, 0.68rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
@@ -468,7 +468,7 @@ useEffect(() => {
           {/* TO BE HELD AT */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.6rem, 1.5vw, 0.7rem)",
               letterSpacing: "0.2em",
               color: "#6a5a4a",
@@ -481,7 +481,7 @@ useEffect(() => {
           {/* Venue */}
           <h2
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(1.6rem, 5vw, 2.4rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -495,7 +495,7 @@ useEffect(() => {
           {/* Time */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.6rem, 1.5vw, 0.7rem)",
               letterSpacing: "0.2em",
               color: "#6a5a4a",
@@ -517,7 +517,7 @@ useEffect(() => {
         >
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.55rem, 1.3vw, 0.65rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
@@ -528,7 +528,7 @@ useEffect(() => {
           </p>
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.55rem, 1.3vw, 0.65rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
@@ -600,7 +600,7 @@ useEffect(() => {
         >
           <h1
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(2.8rem, 8vw, 5rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -613,7 +613,7 @@ useEffect(() => {
 
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.65rem, 1.8vw, 0.85rem)",
               letterSpacing: "0.22em",
               color: "#7a6a5a",
@@ -641,7 +641,7 @@ useEffect(() => {
                 key={`days-${time.days}`}
                 className="count-number"
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(3rem, 9vw, 5.5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
@@ -652,7 +652,7 @@ useEffect(() => {
               </div>
               <p
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
@@ -683,7 +683,7 @@ useEffect(() => {
                 key={`hours-${time.hours}`}
                 className="count-number"
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(3rem, 9vw, 5.5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
@@ -694,7 +694,7 @@ useEffect(() => {
               </div>
               <p
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
@@ -725,7 +725,7 @@ useEffect(() => {
                 key={`minutes-${time.minutes}`}
                 className="count-number"
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(3rem, 9vw, 5.5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
@@ -736,7 +736,7 @@ useEffect(() => {
               </div>
               <p
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
@@ -766,7 +766,7 @@ useEffect(() => {
                 key={`seconds-${time.seconds}`}
                 className="count-number"
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(3rem, 9vw, 5.5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
@@ -778,7 +778,7 @@ useEffect(() => {
 
               <p
                 style={{
-                  fontFamily: "var(--font-engagement), cursive",
+                  fontFamily: "var(--font-hurricane), cursive",
                   fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
@@ -815,7 +815,7 @@ useEffect(() => {
         {/* Section Title */}
         {/* <h2
           style={{
-            fontFamily: "var(--font-engagement), cursive",
+            fontFamily: "var(--font-hurricane), cursive",
             fontSize: "clamp(2.4rem, 7vw, 3.8rem)",
             color: "#3c3228",
             fontWeight: 400,
@@ -870,7 +870,7 @@ useEffect(() => {
           {/* Event Type */}
           {/* <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
                 letterSpacing: "0.2em",
                 color: "#B76E79",
@@ -884,7 +884,7 @@ useEffect(() => {
           {/* Venue Name Cursive 1 */}
           {/* <h3
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -898,7 +898,7 @@ useEffect(() => {
           {/* Venue Name Cursive 2 */}
           {/* <h3
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -912,7 +912,7 @@ useEffect(() => {
           {/* Location description */}
           {/* <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.7rem, 1.8vw, 0.82rem)",
                 color: "#8a7f74",
                 marginBottom: "1.4rem",
@@ -935,7 +935,7 @@ useEffect(() => {
           {/* Date */}
           {/* <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
                 color: "#7a6a5a",
                 marginBottom: "0.5rem",
@@ -948,7 +948,7 @@ useEffect(() => {
           {/* Time */}
           {/* <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(1.6rem, 4.5vw, 2.2rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -962,7 +962,7 @@ useEffect(() => {
           {/* <a
               href="#"
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
                 letterSpacing: "0.2em",
                 color: "#B76E79",
@@ -1021,7 +1021,7 @@ useEffect(() => {
             {/* Event Type */}
             <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
                 letterSpacing: "0.2em",
                 color: "#B76E79",
@@ -1034,7 +1034,7 @@ useEffect(() => {
             {/* Venue Name Cursive 1 */}
             <h3
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 600,
@@ -1048,7 +1048,7 @@ useEffect(() => {
             {/* Venue Name Cursive 2 */}
             <h3
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 600,
@@ -1072,7 +1072,7 @@ useEffect(() => {
             {/* Date */}
             <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
                 color: "#7a6a5a",
                 marginBottom: "0.5rem",
@@ -1085,7 +1085,7 @@ useEffect(() => {
             {/* Time */}
             <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(1.6rem, 4.5vw, 2.2rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -1101,7 +1101,7 @@ useEffect(() => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
                 letterSpacing: "0.2em",
                 color: "#B76E79",
@@ -1200,7 +1200,7 @@ useEffect(() => {
           {/* Wedding Weekend heading */}
           <h2
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(2.2rem, 7vw, 3.5rem)",
               color: "#3c3228",
               fontWeight: 600,
@@ -1214,7 +1214,7 @@ useEffect(() => {
           {/* ITINERARY */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.6rem, 1.6vw, 0.75rem)",
               letterSpacing: "0.25em",
               color: "#8a7f74",
@@ -1227,7 +1227,7 @@ useEffect(() => {
           {/* Date range */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
               color: "#7a6a5a",
               marginBottom: "clamp(2rem, 6vw, 3.5rem)",
@@ -1240,7 +1240,7 @@ useEffect(() => {
           {/* Description */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
               color: "#8a7f74",
               fontStyle: "italic",
@@ -1311,7 +1311,7 @@ useEffect(() => {
                 {/* Time */}
                 <p
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "clamp(0.65rem, 1.7vw, 0.78rem)",
                     color: "#B76E79",
                     letterSpacing: "0.04em",
@@ -1323,7 +1323,7 @@ useEffect(() => {
                 {/* Label */}
                 <p
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "clamp(0.78rem, 2vw, 0.92rem)",
                     color: "#3c3228",
                     lineHeight: 1.5,
@@ -1420,7 +1420,7 @@ useEffect(() => {
           {/* Names */}
           {/* <h2
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(1.8rem, 5.5vw, 2.6rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -1434,7 +1434,7 @@ useEffect(() => {
           {/* Date */}
           <p
             style={{
-              fontFamily: "var(--font-engagement), cursive",
+              fontFamily: "var(--font-hurricane), cursive",
               fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
               color: "#7a6a5a",
               letterSpacing: "0.05em",
@@ -1452,7 +1452,7 @@ useEffect(() => {
           >
             <h3
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 600,
@@ -1465,7 +1465,7 @@ useEffect(() => {
 
             <p
               style={{
-                fontFamily: "var(--font-engagement), cursive",
+                fontFamily: "var(--font-hurricane), cursive",
                 fontSize: "clamp(0.75rem, 1.9vw, 0.9rem)",
                 color: "#7a6a5a",
                 lineHeight: 1.8,
@@ -1487,7 +1487,7 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "0.85rem",
                     color: "#3c3228",
                     fontWeight: 700,
@@ -1499,7 +1499,7 @@ useEffect(() => {
                 <a
                   href="tel:+923228211780"
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
@@ -1513,7 +1513,7 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "0.85rem",
                     color: "#3c3228",
                     fontWeight: 700,
@@ -1525,7 +1525,7 @@ useEffect(() => {
                 <a
                   href="tel:+923218211780"
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
@@ -1539,7 +1539,7 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "0.85rem",
                     color: "#3c3228",
                     fontWeight: 700,
@@ -1551,7 +1551,7 @@ useEffect(() => {
                 <a
                   href="tel:+923218230821"
                   style={{
-                    fontFamily: "var(--font-engagement), cursive",
+                    fontFamily: "var(--font-hurricane), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
