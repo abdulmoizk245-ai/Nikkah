@@ -288,7 +288,7 @@ useEffect(() => {
               <h1
                 style={{
                   fontFamily: "var(--font-hurricane), cursive",
-                  fontSize: "clamp(2.8rem, 9vw, 5rem)",
+                  fontSize: "clamp(2.8rem, 25vw, 5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
                   lineHeight: 1,
@@ -299,9 +299,10 @@ useEffect(() => {
               </h1>
 
               <p
-                className="text-center text-[12px] font-medium  tracking-[0.08em] text-[#3c3228]/80 md:text-[13px] "
+                className="text-center  text-[19px] font-medium tracking-[0.14em] text-[#3c3228]/80 md:text-[16px]"
                 style={{
                   fontFamily: "var(--font-hurricane), cursive",
+                  wordSpacing: "0.08em",
                 }}
               >
                 S/o Mr. &amp; Mrs. Faisal Azhar
@@ -328,7 +329,7 @@ useEffect(() => {
               <h1
                 style={{
                   fontFamily: "var(--font-hurricane), cursive",
-                  fontSize: "clamp(2.8rem, 9vw, 5rem)",
+                  fontSize: "clamp(2.8rem, 25vw, 5rem)",
                   color: "#3c3228",
                   fontWeight: 400,
                   lineHeight: 1,
@@ -339,9 +340,10 @@ useEffect(() => {
               </h1>
 
               <p
-                className="text-center text-[12px] font-medium  tracking-[0.08em] text-[#3c3228]/80 md:text-[13px] "
+                className="text-center text-[17px] font-medium tracking-[0.14em] text-[#3c3228]/80 md:text-[16px]"
                 style={{
                   fontFamily: "var(--font-hurricane), cursive",
+                  wordSpacing: "0.08em",
                 }}
               >
                 &amp; D/o Mr. &amp; Mrs. Muhammad Shahzad Rafi
@@ -1022,8 +1024,9 @@ useEffect(() => {
             <p
               style={{
                 fontFamily: "var(--font-hurricane), cursive",
-                fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
-                letterSpacing: "0.2em",
+                fontSize: "clamp(0.78rem, 1.9vw, 0.92rem)",
+                letterSpacing: "0.28em",
+                wordSpacing: "0.1em",
                 color: "#B76E79",
                 marginBottom: "1.2rem",
               }}
@@ -1073,10 +1076,11 @@ useEffect(() => {
             <p
               style={{
                 fontFamily: "var(--font-hurricane), cursive",
-                fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
+                fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
                 color: "#7a6a5a",
                 marginBottom: "0.5rem",
-                letterSpacing: "0.05em",
+                letterSpacing: "0.12em",
+                wordSpacing: "0.1em",
               }}
             >
               08 AUGUST 2026
@@ -1086,10 +1090,11 @@ useEffect(() => {
             <p
               style={{
                 fontFamily: "var(--font-hurricane), cursive",
-                fontSize: "clamp(1.6rem, 4.5vw, 2.2rem)",
+                fontSize: "clamp(1.8rem, 5vw, 2.5rem)",
                 color: "#3c3228",
                 fontWeight: 400,
                 marginBottom: "1.6rem",
+                letterSpacing: "0.06em",
               }}
             >
               6:00 P.M
@@ -1102,8 +1107,9 @@ useEffect(() => {
               rel="noopener noreferrer"
               style={{
                 fontFamily: "var(--font-hurricane), cursive",
-                fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
-                letterSpacing: "0.2em",
+                fontSize: "clamp(0.78rem, 1.9vw, 0.92rem)",
+                letterSpacing: "0.28em",
+                wordSpacing: "0.1em",
                 color: "#B76E79",
                 textDecoration: "none",
                 display: "inline-block",
@@ -1215,8 +1221,9 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-hurricane), cursive",
-              fontSize: "clamp(0.6rem, 1.6vw, 0.75rem)",
-              letterSpacing: "0.25em",
+              fontSize: "clamp(0.78rem, 1.9vw, 0.95rem)",
+              letterSpacing: "0.32em",
+              wordSpacing: "0.12em",
               color: "#8a7f74",
               marginBottom: "0.5rem",
             }}
@@ -1228,10 +1235,11 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-hurricane), cursive",
-              fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
+              fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
               color: "#7a6a5a",
               marginBottom: "clamp(2rem, 6vw, 3.5rem)",
-              letterSpacing: "0.05em",
+              letterSpacing: "0.12em",
+              wordSpacing: "0.1em",
             }}
           >
             08 AUGUST 2026
@@ -1241,12 +1249,13 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-hurricane), cursive",
-              fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
+              fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
               color: "#8a7f74",
               fontStyle: "italic",
               lineHeight: 1.7,
-              maxWidth: "280px",
+              maxWidth: "300px",
               margin: "0 auto 1.2rem",
+              wordSpacing: "0.1em",
             }}
           >
             Please join us for cocktails and hors d&apos;œuvres as we sail the
@@ -1312,9 +1321,10 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-hurricane), cursive",
-                    fontSize: "clamp(0.65rem, 1.7vw, 0.78rem)",
+                    fontSize: "clamp(0.82rem, 2vw, 0.98rem)",
                     color: "#B76E79",
-                    letterSpacing: "0.04em",
+                    letterSpacing: "0.1em",
+                    wordSpacing: "0.08em",
                     marginBottom: "0.25rem",
                   }}
                 >
@@ -1324,9 +1334,10 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-hurricane), cursive",
-                    fontSize: "clamp(0.78rem, 2vw, 0.92rem)",
+                    fontSize: "clamp(0.92rem, 2.3vw, 1.08rem)",
                     color: "#3c3228",
                     lineHeight: 1.5,
+                    wordSpacing: "0.08em",
                   }}
                 >
                   {item.label}
@@ -1435,9 +1446,10 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-hurricane), cursive",
-              fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
+              fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
               color: "#7a6a5a",
-              letterSpacing: "0.05em",
+              letterSpacing: "0.12em",
+              wordSpacing: "0.1em",
               marginBottom: "clamp(2rem, 6vw, 3.5rem)",
             }}
           >
@@ -1466,10 +1478,11 @@ useEffect(() => {
             <p
               style={{
                 fontFamily: "var(--font-hurricane), cursive",
-                fontSize: "clamp(0.75rem, 1.9vw, 0.9rem)",
+                fontSize: "clamp(0.9rem, 2.2vw, 1.08rem)",
                 color: "#7a6a5a",
                 lineHeight: 1.8,
                 marginBottom: "1.6rem",
+                wordSpacing: "0.1em",
               }}
             >
               Kindly confirm your attendance. We are eagerly looking forward to
