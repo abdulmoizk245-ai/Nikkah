@@ -1292,7 +1292,7 @@ useEffect(() => {
                   "Guest arrival at Emerald Banquet Hall #8 Garrison Golf & Country Club",
               },
               {
-                time: "7:30 ",
+                time: "7:30 npm",
                 label: "Nikkah Cermony",
               },
               {
@@ -1491,8 +1491,7 @@ useEffect(() => {
                 wordSpacing: "0.1em",
               }}
             >
-              Kindly confirm your attendance. We are eagerly looking forward to
-              celebrating this blessed occasion with you.
+              Your prayers and presence mean the worl tous. Awaiting for ur blessed presence
             </p>
 
             <div
