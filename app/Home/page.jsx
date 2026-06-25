@@ -1479,7 +1479,7 @@ useEffect(() => {
                 wordSpacing: "0.1em",
               }}
             >
-              Your prayers and presence mean the world to us.<br/> Awaiting for ur blessed presence
+              Your prayers and presence mean the world to us.<br/> Awaiting for your blessed presence
             </p>
 
             <div
