@@ -1021,7 +1021,7 @@ useEffect(() => {
             }}
           >
             {/* Event Type */}
-            <p
+            {/* <p
               style={{
                 fontFamily: "var(--font-cookie), cursive",
                 fontSize: "clamp(0.78rem, 1.9vw, 0.92rem)",
@@ -1032,13 +1032,13 @@ useEffect(() => {
               }}
             >
               WEDDING
-            </p>
+            </p> */}
 
             {/* Venue Name Cursive 1 */}
             <h3
               style={{
                 fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(2rem, 6vw, 2.8rem)",
+                fontSize: "clamp(2rem, 6vw, 2.5rem)",
                 color: "#3c3228",
                 fontWeight: 600,
                 lineHeight: 1.1,
@@ -1052,7 +1052,7 @@ useEffect(() => {
             <h3
               style={{
                 fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(2rem, 6vw, 2.8rem)",
+                fontSize: "clamp(2rem, 6vw, 2.5rem)",
                 color: "#3c3228",
                 fontWeight: 600,
                 lineHeight: 1.1,
@@ -1289,7 +1289,7 @@ useEffect(() => {
               {
                 time: "7:00 PM",
                 label:
-                  "Guest arrival at Emerald Banquet Hall #8 Garrison Golf & Country Club",
+                  "Guest arrival",
               },
               {
                 time: "7:30 npm",
@@ -1298,7 +1298,7 @@ useEffect(() => {
               {
                 time: "8:30 PM",
                 label:
-                  "Dinner from Emerald Banquet Hall #8 Garrison Golf & Country Club",
+                  "Dinner ",
               },
                {
                 time: "10:00 PM",
@@ -1491,7 +1491,7 @@ useEffect(() => {
                 wordSpacing: "0.1em",
               }}
             >
-              Your prayers and presence mean the worl tous. Awaiting for ur blessed presence
+              Your prayers and presence mean. Awaiting for ur blessed presence
             </p>
 
             <div
