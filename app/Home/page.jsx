@@ -1214,22 +1214,10 @@ useEffect(() => {
               marginBottom: "0.8rem",
             }}
           >
-            Wedding Weekend
+            NIKKAH CEREMONY
           </h2>
 
-          {/* ITINERARY */}
-          <p
-            style={{
-              fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.78rem, 1.9vw, 0.95rem)",
-              letterSpacing: "0.32em",
-              wordSpacing: "0.12em",
-              color: "#8a7f74",
-              marginBottom: "0.5rem",
-            }}
-          >
-            NIKKAH CEREMONY
-          </p>
+        
 
           {/* Date range */}
           <p
