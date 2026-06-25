@@ -245,7 +245,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.58rem, 1.4vw, 0.7rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.22em",
               color: "#8a7a6a",
               marginBottom: "1.2rem",
@@ -355,7 +355,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.62rem, 1.5vw, 0.78rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.18em",
               color: "#6a5a4a",
               lineHeight: 1.9,
@@ -367,7 +367,7 @@ useEffect(() => {
           >
             WE REQUEST THE PLEASURE OF YOUR COMPANY
             <br />
-            TO CELEBRATE OUR WEDDING ON
+            TO CELEBRATE OUR EVENT ON
           </p>
 
           {/* Date display: JULY | 23 | 2026 */}
@@ -393,7 +393,7 @@ useEffect(() => {
               <p
                 style={{
                   fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(0.6rem, 1.5vw, 0.72rem)",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#6a5a4a",
                 }}
@@ -436,7 +436,7 @@ useEffect(() => {
               <p
                 style={{
                   fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(0.6rem, 1.5vw, 0.72rem)",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#6a5a4a",
                 }}
@@ -458,7 +458,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.58rem, 1.4vw, 0.68rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
               marginBottom: "1.8rem",
@@ -471,7 +471,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.6rem, 1.5vw, 0.7rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.2em",
               color: "#6a5a4a",
               marginBottom: "0.4rem",
@@ -498,7 +498,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.6rem, 1.5vw, 0.7rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.2em",
               color: "#6a5a4a",
               marginBottom: "clamp(2rem, 6vw, 3.5rem)",
@@ -520,7 +520,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.55rem, 1.3vw, 0.65rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
               marginBottom: "0.3rem",
@@ -531,7 +531,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.55rem, 1.3vw, 0.65rem)",
+              fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
               marginBottom: "0.5rem",
@@ -616,7 +616,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.65rem, 1.8vw, 0.85rem)",
+              fontSize: "clamp(0.9rem, 2.2vw, 1.05rem)",
               letterSpacing: "0.22em",
               color: "#7a6a5a",
               marginBottom: "clamp(1.5rem, 5vw, 3rem)",
@@ -655,7 +655,7 @@ useEffect(() => {
               <p
                 style={{
                   fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
                   marginTop: "0.6rem",
@@ -697,7 +697,7 @@ useEffect(() => {
               <p
                 style={{
                   fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
                   marginTop: "0.6rem",
@@ -739,7 +739,7 @@ useEffect(() => {
               <p
                 style={{
                   fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
                   marginTop: "0.6rem",
@@ -781,7 +781,7 @@ useEffect(() => {
               <p
                 style={{
                   fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(0.55rem, 1.5vw, 0.75rem)",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#7a6a5a",
                   marginTop: "0.6rem",
@@ -1076,7 +1076,7 @@ useEffect(() => {
             <p
               style={{
                 fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
+                fontSize: "clamp(1rem, 2.4vw, 1.2rem)",
                 color: "#7a6a5a",
                 marginBottom: "0.5rem",
                 letterSpacing: "0.12em",
@@ -1223,7 +1223,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
+              fontSize: "clamp(1rem, 2.4vw, 1.2rem)",
               color: "#7a6a5a",
               marginBottom: "clamp(2rem, 6vw, 3.5rem)",
               letterSpacing: "0.12em",
@@ -1237,7 +1237,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
+              fontSize: "clamp(1.4rem, 2.4vw, 1.2rem)",
               color: "#8a7f74",
               fontStyle: "italic",
               lineHeight: 1.7,
@@ -1246,7 +1246,7 @@ useEffect(() => {
               wordSpacing: "0.1em",
             }}
           >
-            Let’s celebrate the joyous moment of our families coming together at the Nikkah of our beloved childrens  
+            Let’s celebrate the joyous moment of our families coming together at the Nikkah of our beloved children 
             <br/>
             <span style={{ fontSize: "1.4em", fontStyle: "normal", color: "#6b5c52" }}>Rafey &amp; Minahil</span>
           </p>
@@ -1315,7 +1315,7 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "clamp(0.82rem, 2vw, 0.98rem)",
+                    fontSize: "clamp(1rem, 2.2vw, 1.15rem)",
                     color: "#B76E79",
                     letterSpacing: "0.1em",
                     wordSpacing: "0.08em",
@@ -1328,7 +1328,7 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "clamp(0.92rem, 2.3vw, 1.08rem)",
+                    fontSize: "clamp(1.05rem, 2.5vw, 1.2rem)",
                     color: "#3c3228",
                     lineHeight: 1.5,
                     wordSpacing: "0.08em",
@@ -1440,7 +1440,7 @@ useEffect(() => {
           <p
             style={{
               fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.88rem, 2.1vw, 1.05rem)",
+              fontSize: "clamp(1rem, 2.4vw, 1.2rem)",
               color: "#7a6a5a",
               letterSpacing: "0.12em",
               wordSpacing: "0.1em",
@@ -1472,14 +1472,14 @@ useEffect(() => {
             <p
               style={{
                 fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(0.9rem, 2.2vw, 1.08rem)",
+                fontSize: "clamp(1.4rem, 2.4vw, 1.2rem)",
                 color: "#7a6a5a",
                 lineHeight: 1.8,
                 marginBottom: "1.6rem",
                 wordSpacing: "0.1em",
               }}
             >
-              Your prayers and presence mean. Awaiting for ur blessed presence
+              Your prayers and presence mean the world to us.<br/> Awaiting for ur blessed presence
             </p>
 
             <div
@@ -1494,7 +1494,7 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "0.85rem",
+                    fontSize: "1rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
@@ -1520,7 +1520,7 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "0.85rem",
+                    fontSize: "1rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
@@ -1546,7 +1546,7 @@ useEffect(() => {
                 <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "0.85rem",
+                    fontSize: "1rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
