@@ -1567,6 +1567,31 @@ useEffect(() => {
                   0321-8230821
                 </a>
               </div>
+              <div>
+                <p
+                  style={{
+                    fontFamily: "var(--font-cookie), cursive",
+                    fontSize: "1rem",
+                    color: "#3c3228",
+                    fontWeight: 700,
+                    marginBottom: "0.25rem",
+                  }}
+                >
+                  Irfan Shakeel
+                </p>
+                <a
+                  href="tel:+923212419300"
+                  style={{
+                    fontFamily: "var(--font-cookie), cursive",
+                    fontSize: "0.82rem",
+                    color: "#B76E79",
+                    textDecoration: "none",
+                    letterSpacing: "0.04em",
+                  }}
+                >
+                  0321-2419300
+                </a>
+              </div>
             </div>
           </div>
 
