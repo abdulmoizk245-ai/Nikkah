@@ -253,7 +253,7 @@ export default function Wedding() {
             }}
           >
             {/* NIKKAH CEREMONY · 2026 */}
-           Mr & Mrs. Faisal Azhar Request the Pleasure of your company at the
+            Mr & Mrs. Faisal Azhar Request the Pleasure of your company at the
             Nikkah Ceremony of their Beloved Grand Daughter
           </p>
 
@@ -1245,6 +1245,7 @@ export default function Wedding() {
               maxWidth: "300px",
               margin: "0 auto 1.2rem",
               wordSpacing: "0.1em",
+              textAlign: "center",
             }}
           >
             Let’s celebrate the joyous moment of our families coming together at
@@ -1486,8 +1487,8 @@ export default function Wedding() {
                 wordSpacing: "0.1em",
               }}
             >
-              Your prayers and presence mean the world to us.
-              <br /> Awaiting for your blessed presence
+              Your prayers and presence mean the world to us. Awaiting for your
+              blessed presence
             </p>
 
             <div
@@ -1603,6 +1604,18 @@ export default function Wedding() {
                 >
                   0321-2419300
                 </a>
+                <p
+                  style={{
+                    fontFamily: "var(--font-merienda), cursive",
+                    fontSize: "clamp(1.6rem, 2.4vw, 1.2rem)",
+                    color: "#7a6a5a",
+                    lineHeight: 1.8,
+                    marginTop: "2.6rem",
+                    wordSpacing: "0.1em",
+                  }}
+                >
+                  Looking Forward
+                </p>
               </div>
             </div>
           </div>
