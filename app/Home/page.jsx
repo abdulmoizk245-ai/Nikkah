@@ -41,33 +41,33 @@ export default function Wedding() {
     return () => clearInterval(id);
   }, []);
 
-useEffect(() => {
-  if (!startIntro) return;
+  useEffect(() => {
+    if (!startIntro) return;
 
-  const audio = audioRef.current;
+    const audio = audioRef.current;
 
-  if (audio) {
-    audio.currentTime = 0;
-    audio.volume = 0.8;
-    audio.play().catch((err) => {
-      console.log("Audio blocked:", err);
-    });
-  }
+    if (audio) {
+      audio.currentTime = 0;
+      audio.volume = 0.8;
+      audio.play().catch((err) => {
+        console.log("Audio blocked:", err);
+      });
+    }
 
-  const timer = setTimeout(() => {
-    setShowIntro(false);
-  }, 4300);
+    const timer = setTimeout(() => {
+      setShowIntro(false);
+    }, 4300);
 
-  return () => {
-    clearTimeout(timer);
-  };
-}, [startIntro]);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [startIntro]);
 
   const pad = (n) => String(n).padStart(2, "0");
 
   return (
     <>
-    <audio ref={audioRef} src="/images/AU.mp3" preload="auto" loop />
+      <audio ref={audioRef} src="/images/AU.mp3" preload="auto" loop />
       {/* ── Hero Section ── */}
       <section
         style={{
@@ -82,79 +82,79 @@ useEffect(() => {
       >
         {/* video */}
         {!startIntro && showIntro && (
-  <button
-    onClick={() => setStartIntro(true)}
-    style={{
-      position: "fixed",
-      inset: 0,
-      zIndex: 999999,
-      background: "#f7f0e8",
-      border: "none",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      flexDirection: "column",
-      cursor: "pointer",
-    }}
-  >
-    <img
-      src="/images/opening.jpg"
-      alt=""
-      style={{
-        width: "100%",
-        height: "100%",
-        objectFit: "cover",
-        position: "absolute",
-        inset: 0,
-      }}
-    />
+          <button
+            onClick={() => setStartIntro(true)}
+            style={{
+              position: "fixed",
+              inset: 0,
+              zIndex: 999999,
+              background: "#f7f0e8",
+              border: "none",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "column",
+              cursor: "pointer",
+            }}
+          >
+            <img
+              src="/images/opening.jpg"
+              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                position: "absolute",
+                inset: 0,
+              }}
+            />
 
-    <span
-      style={{
-        position: "relative",
-        zIndex: 2,
-        fontFamily: "var(--font-cookie), cursive",
-        fontSize: "0.75rem",
-        letterSpacing: "0.25em",
-        color: "#6a5a4a",
-        background: "rgba(255,255,255,0.65)",
-        padding: "12px 18px",
-        borderRadius: "999px",
-      }}
-    >
-      TAP TO OPEN
-    </span>
-  </button>
-)}
+            <span
+              style={{
+                position: "relative",
+                zIndex: 2,
+                fontFamily: "var(--font-merienda), cursive",
+                fontSize: "0.75rem",
+                letterSpacing: "0.25em",
+                color: "#6a5a4a",
+                background: "rgba(255,255,255,0.65)",
+                padding: "12px 18px",
+                borderRadius: "999px",
+              }}
+            >
+              TAP TO OPEN
+            </span>
+          </button>
+        )}
 
-{startIntro && showIntro && (
-  <div
-    style={{
-      position: "fixed",
-      inset: 0,
-      width: "100%",
-      height: "100vh",
-      zIndex: 99999,
-      overflow: "hidden",
-      background: "transparent",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      pointerEvents: "none",
-    }}
-  >
-    <img
-      src="/images/opening.gif"
-      alt=""
-      style={{
-        width: "100%",
-        height: "100%",
-        objectFit: "cover",
-        display: "block",
-      }}
-    />
-  </div>
-)}
+        {startIntro && showIntro && (
+          <div
+            style={{
+              position: "fixed",
+              inset: 0,
+              width: "100%",
+              height: "100vh",
+              zIndex: 99999,
+              overflow: "hidden",
+              background: "transparent",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              pointerEvents: "none",
+            }}
+          >
+            <img
+              src="/images/opening.gif"
+              alt=""
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                display: "block",
+              }}
+            />
+          </div>
+        )}
         {/* Background image */}
         <Image
           src="/images/hero.jpg"
@@ -230,7 +230,7 @@ useEffect(() => {
           {/* Bismillah */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(1rem, 3vw, 1.4rem)",
               color: "#5a4a3a",
               direction: "rtl",
@@ -244,14 +244,17 @@ useEffect(() => {
           {/* Nikkah Ceremony label */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.22em",
               color: "#8a7a6a",
               marginBottom: "1.2rem",
+              marginTop: "1.5rem",
             }}
           >
-            NIKKAH CEREMONY · 2026
+            {/* NIKKAH CEREMONY · 2026 */}
+           Mr & Mrs. Faisal Azhar Request the Pleasure of your company at the
+            Nikkah Ceremony of their Beloved Grand Daughter
           </p>
 
           {/* Monogram */}
@@ -272,7 +275,7 @@ useEffect(() => {
           {/* Couple names */}
           {/* <h1
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(2.8rem, 9vw, 5rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -287,11 +290,11 @@ useEffect(() => {
             <div className="flex flex-col items-center gap-1">
               <h1
                 style={{
-                  fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(2.8rem, 25vw, 5rem)",
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(3rem, 25vw, 1rem)",
                   color: "#3c3228",
                   fontWeight: 400,
-                  lineHeight: 1,
+                  lineHeight: 1.5,
                   margin: 0,
                 }}
               >
@@ -299,9 +302,9 @@ useEffect(() => {
               </h1>
 
               <p
-                className="text-center  text-[19px] font-medium tracking-[0.14em] text-[#3c3228]/80 md:text-[16px]"
+                className="text-center text-[12px] font-medium tracking-[0.14em] text-[#3c3228]/80 md:text-[16px]"
                 style={{
-                  fontFamily: "var(--font-cookie), cursive",
+                  fontFamily: "var(--font-merienda), cursive",
                   wordSpacing: "0.08em",
                 }}
               >
@@ -313,7 +316,7 @@ useEffect(() => {
             <h1
               className="md:mt-0"
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(2.8rem, 9vw, 5rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -328,11 +331,11 @@ useEffect(() => {
             <div className="flex flex-col items-center gap-1">
               <h1
                 style={{
-                  fontFamily: "var(--font-cookie), cursive",
-                  fontSize: "clamp(2.8rem, 25vw, 5rem)",
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(3rem, 25vw, 1rem)",
                   color: "#3c3228",
                   fontWeight: 400,
-                  lineHeight: 1,
+                  lineHeight: 1.5,
                   margin: 0,
                 }}
               >
@@ -340,9 +343,9 @@ useEffect(() => {
               </h1>
 
               <p
-                className="text-center text-[17px] font-medium tracking-[0.14em] text-[#3c3228]/80 md:text-[16px]"
+                className="text-center mt-4 text-[12px] font-medium tracking-[0.14em] text-[#3c3228]/80 md:text-[16px]"
                 style={{
-                  fontFamily: "var(--font-cookie), cursive",
+                  fontFamily: "var(--font-merienda), cursive",
                   wordSpacing: "0.08em",
                 }}
               >
@@ -354,8 +357,8 @@ useEffect(() => {
           {/* Invitation text */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(0.85rem, 2vw, 1rem)",
+              fontFamily: "var(--font-merienda), cursive",
+              fontSize: "clamp(0.75rem, 2vw, 1rem)",
               letterSpacing: "0.18em",
               color: "#6a5a4a",
               lineHeight: 1.9,
@@ -365,9 +368,9 @@ useEffect(() => {
               marginBottom: "2.6rem",
             }}
           >
-            WE REQUEST THE PLEASURE OF YOUR COMPANY
-            <br />
-            TO CELEBRATE OUR EVENT ON
+            {/* WE REQUEST THE PLEASURE OF YOUR COMPANY
+            TO CELEBRATE OUR EVENT ON */}
+            NIKKAH CEREMONY · 2026
           </p>
 
           {/* Date display: JULY | 23 | 2026 */}
@@ -392,7 +395,7 @@ useEffect(() => {
               />
               <p
                 style={{
-                  fontFamily: "var(--font-cookie), cursive",
+                  fontFamily: "var(--font-merienda), cursive",
                   fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#6a5a4a",
@@ -413,7 +416,7 @@ useEffect(() => {
             {/* 23 */}
             <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(3rem, 10vw, 5rem)",
                 color: "#3c3228",
                 fontWeight: 700,
@@ -435,7 +438,7 @@ useEffect(() => {
               />
               <p
                 style={{
-                  fontFamily: "var(--font-cookie), cursive",
+                  fontFamily: "var(--font-merienda), cursive",
                   fontSize: "clamp(0.85rem, 2vw, 1rem)",
                   letterSpacing: "0.2em",
                   color: "#6a5a4a",
@@ -457,7 +460,7 @@ useEffect(() => {
           {/* THURSDAY */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
@@ -470,7 +473,7 @@ useEffect(() => {
           {/* TO BE HELD AT */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.2em",
               color: "#6a5a4a",
@@ -483,7 +486,7 @@ useEffect(() => {
           {/* Venue */}
           <h2
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(1.6rem, 5vw, 2.4rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -497,7 +500,7 @@ useEffect(() => {
           {/* Time */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.2em",
               color: "#6a5a4a",
@@ -519,7 +522,7 @@ useEffect(() => {
         >
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
@@ -530,7 +533,7 @@ useEffect(() => {
           </p>
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(0.85rem, 2vw, 1rem)",
               letterSpacing: "0.25em",
               color: "#8a7a6a",
@@ -544,20 +547,280 @@ useEffect(() => {
       </section>
 
       {/* ── Countdown Section ── */}
-    
+      <section
+        style={{
+          position: "relative",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          background: "#f7f0e8",
+          overflow: "hidden",
+          padding: "clamp(2.5rem, 6vw, 4rem) 0",
+        }}
+      >
+        {/* Left Pillar */}
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            top: 0,
+            bottom: 0,
+            width: "clamp(60px, 14vw, 130px)",
+          }}
+        >
+          <Image
+            src="/images/column-left-Deau9Trj.png"
+            alt="left pillar"
+            fill
+            style={{ objectFit: "contain", objectPosition: "left center" }}
+            priority
+          />
+        </div>
+
+        {/* Right Pillar */}
+        <div
+          style={{
+            position: "absolute",
+            right: 0,
+            top: 0,
+            bottom: 0,
+            width: "clamp(60px, 14vw, 130px)",
+          }}
+        >
+          <Image
+            src="/images/column-right-DejZoXz8.png"
+            alt="right pillar"
+            fill
+            style={{ objectFit: "contain", objectPosition: "right center" }}
+            priority
+          />
+        </div>
+
+        {/* Center Content */}
+        <div
+          style={{
+            textAlign: "center",
+            padding: "2rem clamp(80px, 16vw, 160px)",
+          }}
+        >
+          <h1
+            style={{
+              fontFamily: "var(--font-merienda), cursive",
+              fontSize: "clamp(2.8rem, 8vw, 5rem)",
+              color: "#3c3228",
+              fontWeight: 400,
+              lineHeight: 1.1,
+              marginBottom: "0.6rem",
+            }}
+          >
+            Countdown
+          </h1>
+
+          <p
+            style={{
+              fontFamily: "var(--font-merienda), cursive",
+              fontSize: "clamp(0.9rem, 2.2vw, 1.05rem)",
+              letterSpacing: "0.22em",
+              color: "#7a6a5a",
+              marginBottom: "clamp(1.5rem, 5vw, 3rem)",
+            }}
+          >
+            UNTIL 08 AUGUST 2026
+          </p>
+
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            {/* Days */}
+            <div
+              style={{
+                textAlign: "center",
+                padding: "0 clamp(0.45rem, 1.5vw, 1.2rem)",
+              }}
+            >
+              <div
+                key={`days-${time.days}`}
+                className="count-number"
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(1.8rem, 5vw, 3rem)",
+                  color: "#3c3228",
+                  fontWeight: 400,
+                  lineHeight: 1,
+                }}
+              >
+                {pad(time.days)}
+              </div>
+              <p
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
+                  letterSpacing: "0.14em",
+                  color: "#7a6a5a",
+                  marginTop: "0.35rem",
+                }}
+              >
+                DAYS
+              </p>
+            </div>
+
+            <div
+              style={{
+                width: "1px",
+                height: "clamp(32px, 6vw, 50px)",
+                background: "#c4a882",
+                flexShrink: 0,
+              }}
+            />
+
+            {/* Hours */}
+            <div
+              style={{
+                textAlign: "center",
+                padding: "0 clamp(0.45rem, 1.5vw, 1.2rem)",
+              }}
+            >
+              <div
+                key={`hours-${time.hours}`}
+                className="count-number"
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(1.8rem, 5vw, 3rem)",
+                  color: "#3c3228",
+                  fontWeight: 400,
+                  lineHeight: 1,
+                }}
+              >
+                {pad(time.hours)}
+              </div>
+              <p
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
+                  letterSpacing: "0.14em",
+                  color: "#7a6a5a",
+                  marginTop: "0.35rem",
+                }}
+              >
+                HOURS
+              </p>
+            </div>
+
+            <div
+              style={{
+                width: "1px",
+                height: "clamp(32px, 6vw, 50px)",
+                background: "#c4a882",
+                flexShrink: 0,
+              }}
+            />
+
+            {/* Minutes */}
+            <div
+              style={{
+                textAlign: "center",
+                padding: "0 clamp(0.45rem, 1.5vw, 1.2rem)",
+              }}
+            >
+              <div
+                key={`minutes-${time.minutes}`}
+                className="count-number"
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(1.8rem, 5vw, 3rem)",
+                  color: "#3c3228",
+                  fontWeight: 400,
+                  lineHeight: 1,
+                }}
+              >
+                {pad(time.minutes)}
+              </div>
+              <p
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
+                  letterSpacing: "0.14em",
+                  color: "#7a6a5a",
+                  marginTop: "0.35rem",
+                }}
+              >
+                MINUTES
+              </p>
+            </div>
+            <div
+              style={{
+                width: "1px",
+                height: "clamp(32px, 6vw, 50px)",
+                background: "#c4a882",
+                flexShrink: 0,
+              }}
+            />
+
+            {/* Seconds */}
+            <div
+              style={{
+                textAlign: "center",
+                padding: "0 clamp(0.45rem, 1.5vw, 1.2rem)",
+              }}
+            >
+              <div
+                key={`seconds-${time.seconds}`}
+                className="count-number"
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(1.8rem, 5vw, 3rem)",
+                  color: "#3c3228",
+                  fontWeight: 400,
+                  lineHeight: 1,
+                }}
+              >
+                {pad(time.seconds)}
+              </div>
+
+              <p
+                style={{
+                  fontFamily: "var(--font-merienda), cursive",
+                  fontSize: "clamp(0.85rem, 2vw, 1rem)",
+                  letterSpacing: "0.14em",
+                  color: "#7a6a5a",
+                  marginTop: "0.35rem",
+                }}
+              >
+                SECONDS
+              </p>
+            </div>
+          </div>
+
+          <div style={{ marginTop: "clamp(1.5rem, 4vw, 2.5rem)" }}>
+            <div
+              style={{
+                width: "6px",
+                height: "6px",
+                borderRadius: "50%",
+                background: "#c4a882",
+                margin: "0 auto",
+              }}
+            />
+          </div>
+        </div>
+      </section>
 
       {/* ── The Celebrations Section ── */}
       <section
         style={{
           background: "#f2ece3",
-          padding: "clamp(3rem, 8vw, 5rem) 1.5rem clamp(3rem, 8vw, 5rem)",
+          padding: "0 1.5rem clamp(3rem, 8vw, 5rem)",
           textAlign: "center",
         }}
       >
         {/* Section Title */}
         {/* <h2
           style={{
-            fontFamily: "var(--font-cookie), cursive",
+            fontFamily: "var(--font-merienda), cursive",
             fontSize: "clamp(2.4rem, 7vw, 3.8rem)",
             color: "#3c3228",
             fontWeight: 400,
@@ -612,7 +875,7 @@ useEffect(() => {
           {/* Event Type */}
           {/* <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
                 letterSpacing: "0.2em",
                 color: "#B76E79",
@@ -626,7 +889,7 @@ useEffect(() => {
           {/* Venue Name Cursive 1 */}
           {/* <h3
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -640,7 +903,7 @@ useEffect(() => {
           {/* Venue Name Cursive 2 */}
           {/* <h3
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(2rem, 6vw, 2.8rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -654,7 +917,7 @@ useEffect(() => {
           {/* Location description */}
           {/* <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(0.7rem, 1.8vw, 0.82rem)",
                 color: "#8a7f74",
                 marginBottom: "1.4rem",
@@ -677,7 +940,7 @@ useEffect(() => {
           {/* Date */}
           {/* <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(0.72rem, 1.8vw, 0.85rem)",
                 color: "#7a6a5a",
                 marginBottom: "0.5rem",
@@ -690,7 +953,7 @@ useEffect(() => {
           {/* Time */}
           {/* <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(1.6rem, 4.5vw, 2.2rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -704,7 +967,7 @@ useEffect(() => {
           {/* <a
               href="#"
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(0.6rem, 1.6vw, 0.72rem)",
                 letterSpacing: "0.2em",
                 color: "#B76E79",
@@ -763,7 +1026,7 @@ useEffect(() => {
             {/* Event Type */}
             {/* <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(0.78rem, 1.9vw, 0.92rem)",
                 letterSpacing: "0.28em",
                 wordSpacing: "0.1em",
@@ -777,8 +1040,8 @@ useEffect(() => {
             {/* Venue Name Cursive 1 */}
             <h3
               style={{
-                fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(2rem, 6vw, 2.5rem)",
+                fontFamily: "var(--font-merienda), cursive",
+                fontSize: "clamp(1rem, 6vw, 2.5rem)",
                 color: "#3c3228",
                 fontWeight: 600,
                 lineHeight: 1.1,
@@ -791,11 +1054,11 @@ useEffect(() => {
             {/* Venue Name Cursive 2 */}
             <h3
               style={{
-                fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(2rem, 6vw, 2.5rem)",
+                fontFamily: "var(--font-merienda), cursive",
+                fontSize: "clamp(1rem, 6vw, 2.5rem)",
                 color: "#3c3228",
                 fontWeight: 600,
-                lineHeight: 1.1,
+                lineHeight: 1.6,
                 marginBottom: "1.4rem",
               }}
             >
@@ -815,7 +1078,7 @@ useEffect(() => {
             {/* Date */}
             <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(1rem, 2.4vw, 1.2rem)",
                 color: "#7a6a5a",
                 marginBottom: "0.5rem",
@@ -829,7 +1092,7 @@ useEffect(() => {
             {/* Time */}
             <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(1.8rem, 5vw, 2.5rem)",
                 color: "#3c3228",
                 fontWeight: 400,
@@ -846,7 +1109,7 @@ useEffect(() => {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                fontFamily: "var(--font-cookie), cursive",
+                fontFamily: "var(--font-merienda), cursive",
                 fontSize: "clamp(0.78rem, 1.9vw, 0.92rem)",
                 letterSpacing: "0.28em",
                 wordSpacing: "0.1em",
@@ -946,23 +1209,21 @@ useEffect(() => {
           {/* Wedding Weekend heading */}
           <h2
             style={{
-              fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(2.2rem, 7vw, 3.5rem)",
+              fontFamily: "var(--font-merienda), cursive",
+              fontSize: "clamp(1.8rem, 7vw, 1.5rem)",
               color: "#3c3228",
               fontWeight: 600,
-              lineHeight: 1.1,
+              lineHeight: 1.8,
               marginBottom: "0.8rem",
             }}
           >
             NIKKAH CEREMONY
           </h2>
 
-        
-
           {/* Date range */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(1rem, 2.4vw, 1.2rem)",
               color: "#7a6a5a",
               marginBottom: "clamp(2rem, 6vw, 3.5rem)",
@@ -976,32 +1237,42 @@ useEffect(() => {
           {/* Description */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
-              fontSize: "clamp(1.4rem, 2.4vw, 1.2rem)",
+              fontFamily: "var(--font-merienda), cursive",
+              fontSize: "clamp(1.1rem, 2.4vw, 1.2rem)",
               color: "#8a7f74",
               fontStyle: "italic",
-              lineHeight: 1.7,
+              lineHeight: 2,
               maxWidth: "300px",
               margin: "0 auto 1.2rem",
               wordSpacing: "0.1em",
             }}
           >
-            Let’s celebrate the joyous moment of our families coming together at the Nikkah of our beloved children 
-            <br/>
-            <span style={{ fontSize: "1.4em", fontStyle: "normal", color: "#6b5c52" }}>Rafey &amp; Minahil</span>
+            Let’s celebrate the joyous moment of our families coming together at
+            the Nikkah of our beloved children
+            <br />
+            <span
+              style={{
+                fontSize: "1.4em",
+                fontStyle: "normal",
+                color: "#6b5c52",
+                lineHeight: 4,
+              }}
+            >
+              Rafey &amp; Minahil
+            </span>
           </p>
 
           {/* ── Timeline ── */}
           <div
             style={{
               maxWidth: "300px",
-              margin: "clamp(1.5rem, 4vw, 2.5rem) auto 0",
+              margin: "clamp(0rem, 0vw, 0rem) auto 0",
               textAlign: "left",
               position: "relative",
               paddingLeft: "2rem",
             }}
           >
-            Event Timeline 
+            Event Timeline
             <div
               style={{
                 position: "absolute",
@@ -1012,12 +1283,10 @@ useEffect(() => {
                 background: "#d4c8b8",
               }}
             />
-
             {[
               {
                 time: "7:00 PM",
-                label:
-                  "Guest arrival",
+                label: "Guest arrival",
               },
               {
                 time: "7:30 npm",
@@ -1025,13 +1294,11 @@ useEffect(() => {
               },
               {
                 time: "8:30 PM",
-                label:
-                  "Dinner ",
+                label: "Dinner ",
               },
-               {
+              {
                 time: "10:00 PM",
-                label:
-                  "Event concludes",
+                label: "Event concludes",
               },
             ].map((item, i) => (
               <div
@@ -1054,7 +1321,7 @@ useEffect(() => {
                 {/* Time */}
                 <p
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
+                    fontFamily: "var(--font-merienda), cursive",
                     fontSize: "clamp(1rem, 2.2vw, 1.15rem)",
                     color: "#B76E79",
                     letterSpacing: "0.1em",
@@ -1067,7 +1334,7 @@ useEffect(() => {
                 {/* Label */}
                 <p
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
+                    fontFamily: "var(--font-merienda), cursive",
                     fontSize: "clamp(1.05rem, 2.5vw, 1.2rem)",
                     color: "#3c3228",
                     lineHeight: 1.5,
@@ -1165,7 +1432,7 @@ useEffect(() => {
           {/* Names */}
           {/* <h2
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(1.8rem, 5.5vw, 2.6rem)",
               color: "#3c3228",
               fontWeight: 400,
@@ -1179,7 +1446,7 @@ useEffect(() => {
           {/* Date */}
           <p
             style={{
-              fontFamily: "var(--font-cookie), cursive",
+              fontFamily: "var(--font-merienda), cursive",
               fontSize: "clamp(1rem, 2.4vw, 1.2rem)",
               color: "#7a6a5a",
               letterSpacing: "0.12em",
@@ -1198,8 +1465,8 @@ useEffect(() => {
           >
             <h3
               style={{
-                fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(2rem, 6vw, 2.8rem)",
+                fontFamily: "var(--font-merienda), cursive",
+                fontSize: "clamp(1.6em, 6vw, 1rem)",
                 color: "#3c3228",
                 fontWeight: 600,
                 marginBottom: "0.8rem",
@@ -1211,15 +1478,16 @@ useEffect(() => {
 
             <p
               style={{
-                fontFamily: "var(--font-cookie), cursive",
-                fontSize: "clamp(1.4rem, 2.4vw, 1.2rem)",
+                fontFamily: "var(--font-merienda), cursive",
+                fontSize: "clamp(0.9rem, 2.4vw, 1.2rem)",
                 color: "#7a6a5a",
                 lineHeight: 1.8,
                 marginBottom: "1.6rem",
                 wordSpacing: "0.1em",
               }}
             >
-              Your prayers and presence mean the world to us.<br/> Awaiting for your blessed presence
+              Your prayers and presence mean the world to us.
+              <br /> Awaiting for your blessed presence
             </p>
 
             <div
@@ -1233,11 +1501,12 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "1rem",
+                    fontFamily: "var(--font-merienda), cursive",
+                    fontSize: "0.9rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
+                    marginTop: "0.35rem",
                   }}
                 >
                   Faisal Azhar
@@ -1245,7 +1514,7 @@ useEffect(() => {
                 <a
                   href="tel:+923228211780"
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
+                    fontFamily: "var(--font-merienda), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
@@ -1259,11 +1528,12 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "1rem",
+                    fontFamily: "var(--font-merienda), cursive",
+                    fontSize: "0.9rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
+                    marginTop: "0.35rem",
                   }}
                 >
                   Mubashir Azhar
@@ -1271,7 +1541,7 @@ useEffect(() => {
                 <a
                   href="tel:+923218211780"
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
+                    fontFamily: "var(--font-merienda), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
@@ -1285,11 +1555,12 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "1rem",
+                    fontFamily: "var(--font-merienda), cursive",
+                    fontSize: "0.9rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
+                    marginTop: "0.35rem",
                   }}
                 >
                   Kashif Shafiq
@@ -1297,7 +1568,7 @@ useEffect(() => {
                 <a
                   href="tel:+923218230821"
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
+                    fontFamily: "var(--font-merienda), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
@@ -1310,11 +1581,12 @@ useEffect(() => {
               <div>
                 <p
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
-                    fontSize: "1rem",
+                    fontFamily: "var(--font-merienda), cursive",
+                    fontSize: "0.9rem",
                     color: "#3c3228",
                     fontWeight: 700,
                     marginBottom: "0.25rem",
+                    marginTop: "0.35rem",
                   }}
                 >
                   Irfan Shakeel
@@ -1322,7 +1594,7 @@ useEffect(() => {
                 <a
                   href="tel:+923212419300"
                   style={{
-                    fontFamily: "var(--font-cookie), cursive",
+                    fontFamily: "var(--font-merienda), cursive",
                     fontSize: "0.82rem",
                     color: "#B76E79",
                     textDecoration: "none",
@@ -1334,7 +1606,6 @@ useEffect(() => {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
