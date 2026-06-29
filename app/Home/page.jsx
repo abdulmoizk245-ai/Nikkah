@@ -1491,7 +1491,7 @@ useEffect(() => {
               }}
             >
               <div>
-                <p
+                {/* <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "1rem",
@@ -1501,9 +1501,9 @@ useEffect(() => {
                   }}
                 >
                   Faisal Azhar
-                </p>
+                </p> */}
                 <a
-                  href="tel:+923228211780"
+                  href="tel:+923214022085"
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "0.82rem",
@@ -1512,12 +1512,12 @@ useEffect(() => {
                     letterSpacing: "0.04em",
                   }}
                 >
-                  0322-8211780
+                  0321-4022085
                 </a>
               </div>
 
               <div>
-                <p
+                {/* <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "1rem",
@@ -1527,9 +1527,9 @@ useEffect(() => {
                   }}
                 >
                   Mubashir Azhar
-                </p>
+                </p> */}
                 <a
-                  href="tel:+923218211780"
+                  href="tel:+923009489905"
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "0.82rem",
@@ -1538,12 +1538,12 @@ useEffect(() => {
                     letterSpacing: "0.04em",
                   }}
                 >
-                  0321-8211780
+                  0300-9489905
                 </a>
               </div>
 
               <div>
-                <p
+                {/* <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "1rem",
@@ -1553,9 +1553,9 @@ useEffect(() => {
                   }}
                 >
                   Kashif Shafiq
-                </p>
+                </p> */}
                 <a
-                  href="tel:+923218230821"
+                  href="tel:+923233656591"
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "0.82rem",
@@ -1564,11 +1564,11 @@ useEffect(() => {
                     letterSpacing: "0.04em",
                   }}
                 >
-                  0321-8230821
+                  0323-3656591
                 </a>
               </div>
               <div>
-                <p
+                {/* <p
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "1rem",
@@ -1578,9 +1578,9 @@ useEffect(() => {
                   }}
                 >
                   Irfan Shakeel
-                </p>
+                </p> */}
                 <a
-                  href="tel:+923212419300"
+                  href="tel:+923334422155"
                   style={{
                     fontFamily: "var(--font-cookie), cursive",
                     fontSize: "0.82rem",
@@ -1589,7 +1589,7 @@ useEffect(() => {
                     letterSpacing: "0.04em",
                   }}
                 >
-                  0321-2419300
+                  0333-4422155
                 </a>
               </div>
             </div>
