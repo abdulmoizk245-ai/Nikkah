@@ -253,7 +253,7 @@ export default function Wedding() {
             }}
           >
             {/* NIKKAH CEREMONY · 2026 */}
-            Mr & Mrs. Faisal Azhar Request the Pleasure of your company at the
+            Mother of Faisal Azhar Request the Pleasure of your company at the
             Nikkah Ceremony of their Beloved Grand Son
           </p>
 
@@ -546,7 +546,8 @@ export default function Wedding() {
         </div>
       </section>
 
-    
+
+
       {/* ── The Celebrations Section ── */}
       <section
         style={{
